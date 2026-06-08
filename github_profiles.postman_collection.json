@@ -1,0 +1,82 @@
+{
+  "info": {
+    "_postman_id": "4d58b749-4abf-45bc-b93e-1d1483778ffe",
+    "name": "github_profiles",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "25289612",
+    "_collection_link": "https://go.postman.co/collection/25289612-4d58b749-4abf-45bc-b93e-1d1483778ffe?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Analyze GitHub Profile",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/github/octocat",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "github",
+            "octocat"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Profiles",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/profiles",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "profiles"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Single Profile",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/api/profiles/octocat",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "5000",
+          "path": [
+            "api",
+            "profiles",
+            "octocat"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
